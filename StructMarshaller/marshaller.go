@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-// allowedFieldKinds содерит список допустимых Kinds
+// allowedFieldKinds содержит список допустимых Kinds
 // для прочих типов пришлось бы писать более сложную логику проверки и присвоения
 var allowedFieldKinds = []reflect.Kind{
 	reflect.Bool,
